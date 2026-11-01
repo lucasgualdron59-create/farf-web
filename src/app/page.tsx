@@ -120,7 +120,9 @@ function PhotoPanel({
         <p className="mb-2 text-[10px] font-bold uppercase tracking-[0.25em] text-red-400">
           FARF · Federación Rusa
         </p>
-        <h3 className="text-2xl font-black uppercase text-white">{title}</h3>
+        <h3 className="text-2xl font-black uppercase text-white">
+          {title}
+        </h3>
         <p className="mt-3 max-w-md text-sm leading-7 text-gray-300">
           {subtitle}
         </p>
@@ -132,14 +134,12 @@ function PhotoPanel({
 export default function Home() {
   return (
     <main className="min-h-screen overflow-hidden bg-[#090a0d] text-white">
-      {/* COLORES DE LA BANDERA RUSA */}
       <div className="flex h-1.5 w-full">
         <div className="w-1/3 bg-white" />
         <div className="w-1/3 bg-blue-600" />
         <div className="w-1/3 bg-red-600" />
       </div>
 
-      {/* NAVEGACIÓN */}
       <header className="sticky top-0 z-50 border-b border-white/10 bg-[#090a0d]/95 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <a href="#inicio" className="flex items-center gap-3">
@@ -175,7 +175,6 @@ export default function Home() {
         </div>
       </header>
 
-      {/* PORTADA */}
       <section
         id="inicio"
         className="relative flex min-h-[720px] items-center bg-cover bg-center"
@@ -188,7 +187,6 @@ export default function Home() {
         <div className="relative mx-auto w-full max-w-7xl px-6 py-28">
           <div className="max-w-3xl">
             <div className="mb-8 flex items-center gap-4">
-              {/* BANDERA RUSA */}
               <div className="flex h-8 w-12 flex-col overflow-hidden shadow-lg">
                 <div className="h-1/3 bg-white" />
                 <div className="h-1/3 bg-blue-600" />
@@ -234,7 +232,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* PRESENTACIÓN */}
       <section className="border-b border-white/10 bg-[#0d0f13] py-24">
         <div className="mx-auto grid max-w-7xl gap-12 px-6 md:grid-cols-2 md:items-center">
           <div>
@@ -261,7 +258,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* HISTORIA */}
       <section id="historia" className="bg-[#090a0d] py-28">
         <div className="mx-auto max-w-7xl px-6">
           <SectionLabel>Trayectoria de la organización</SectionLabel>
@@ -304,7 +300,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* INSTITUCIÓN */}
       <section
         id="institucion"
         className="border-y border-white/10 bg-[#0d0f13] py-28"
@@ -376,7 +371,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* DIVISIONES */}
       <section id="divisiones" className="bg-[#090a0d] py-28">
         <div className="mx-auto max-w-7xl px-6">
           <SectionLabel>Estructura organizativa</SectionLabel>
@@ -414,7 +408,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ACTIVIDADES */}
       <section className="border-y border-white/10 bg-[#0d0f13] py-28">
         <div className="mx-auto grid max-w-7xl gap-12 px-6 md:grid-cols-2 md:items-center">
           <div>
@@ -460,7 +453,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ALTO MANDO */}
       <section id="mando" className="bg-[#090a0d] py-28">
         <div className="mx-auto grid max-w-7xl gap-12 px-6 md:grid-cols-2 md:items-center">
           <PhotoPanel
@@ -488,7 +480,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ACTUALIDAD */}
       <section
         id="actualidad"
         className="border-y border-white/10 bg-[#0d0f13] py-28"
@@ -532,7 +523,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CONTACTO */}
       <section id="contacto" className="relative bg-[#111318] py-24">
         <div className="absolute right-0 top-0 h-full w-1/3 bg-red-950/10" />
 
@@ -567,7 +557,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* PIE DE PÁGINA */}
       <footer className="border-t border-white/10 bg-[#07080a]">
         <div className="mx-auto max-w-7xl px-6 py-12">
           <div className="flex flex-col justify-between gap-8 md:flex-row">
@@ -592,33 +581,22 @@ export default function Home() {
           </div>
 
           <div className="mt-10 border-t border-white/10 pt-6 text-[10px] uppercase tracking-widest text-gray-600">
-            © {new Date().getFullYear()} FARF. Todos los derechos reservados.
+            © 2026 FARF. Todos los derechos reservados.
           </div>
 
           <div className="mt-8 space-y-2 text-[10px] leading-6 text-gray-600">
             <p>
-              Fotografías de desfiles y guardias de honor: Kremlin.ru,
-              Wikimedia Commons, CC BY 4.0.
-            </p>
-            <p>
-              Russian honour guard in Alexander Garden: D. Myles Cullen,
-              dominio público.
-            </p>
-            <p>
-              Uniforme de guardia de honor de la Fuerza Aérea: БРИАН.Ю.М.,
-              Wikimedia Commons, CC BY-SA 4.0.
-            </p>
-            <p>
-              Ilustraciones de uniformes ceremoniales: Ministerio de Defensa
-              de la Federación Rusa, Wikimedia Commons, CC BY 4.0.
+              Fotografías de desfiles y guardias de honor: consultar las
+              páginas originales de Wikimedia Commons para sus autores y
+              licencias.
             </p>
             <a
-              href="https://creativecommons.org/licenses/by/4.0/"
+              href="https://commons.wikimedia.org/"
               target="_blank"
               rel="noreferrer"
               className="inline-block text-gray-400 underline hover:text-white"
             >
-              Licencia Creative Commons
+              Wikimedia Commons
             </a>
           </div>
         </div>
@@ -626,3 +604,4 @@ export default function Home() {
     </main>
   );
 }
+
