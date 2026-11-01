@@ -1,4 +1,4 @@
-﻿
+
 import type { ReactNode } from "react";
 
 const images = {
@@ -21,7 +21,7 @@ const images = {
 const navigation = [
   ["Inicio", "#inicio"],
   ["Historia", "#historia"],
-  ["InstituciÃ³n", "#institucion"],
+  ["Institución", "#institucion"],
   ["Divisiones", "#divisiones"],
   ["Alto Mando", "#mando"],
   ["Actualidad", "#actualidad"],
@@ -30,33 +30,33 @@ const navigation = [
 const timeline = [
   {
     date: "14 DE DICIEMBRE DE 2019",
-    title: "FundaciÃ³n de F.A.R.",
+    title: "Fundación de F.A.R.",
     description:
-      "Los orÃ­genes de nuestra comunidad se remontan a la creaciÃ³n de F.A.R., el proyecto que dio comienzo a esta trayectoria.",
+      "Los orígenes de nuestra comunidad se remontan a la creación de F.A.R., el proyecto que dio comienzo a esta trayectoria.",
   },
   {
     date: "ETAPA POSTERIOR",
-    title: "Una etapa de separaciÃ³n",
+    title: "Una etapa de separación",
     description:
-      "Con el paso del tiempo surgieron diferencias y una separaciÃ³n entre comunidades. Una parte continuÃ³ su propio camino bajo la denominaciÃ³n SRS UniÃ³n SoviÃ©tica.",
+      "Con el paso del tiempo surgieron diferencias y una separación entre comunidades. Una parte continuó su propio camino bajo la denominación SRS Unión Soviética.",
   },
   {
     date: "ETAPA RANGERS",
     title: "Una nueva etapa",
     description:
-      "La comunidad atravesÃ³ un periodo de reorganizaciÃ³n e intentÃ³ continuar bajo la identidad Rangers.",
+      "La comunidad atravesó un periodo de reorganización e intentó continuar bajo la identidad Rangers.",
   },
   {
-    date: "DECISIÃ“N COLECTIVA",
+    date: "DECISIÓN COLECTIVA",
     title: "El regreso a la identidad rusa",
     description:
-      "Tras una votaciÃ³n entre los miembros, se decidiÃ³ recuperar la identidad rusa. Esta decisiÃ³n marcÃ³ el camino hacia la actual FARF.",
+      "Tras una votación entre los miembros, se decidió recuperar la identidad rusa. Esta decisión marcó el camino hacia la actual FARF.",
   },
   {
     date: "ACTUALIDAD",
     title: "FARF",
     description:
-      "La comunidad continÃºa desarrollÃ¡ndose como un proyecto de simulaciÃ³n y organizaciÃ³n dentro de sus plataformas de juego.",
+      "La comunidad continúa desarrollándose como un proyecto de simulación y organización dentro de sus plataformas de juego.",
   },
 ];
 
@@ -65,7 +65,7 @@ const values = [
     number: "01",
     title: "Disciplina",
     description:
-      "Mantener una conducta responsable y respetar la organizaciÃ³n de la comunidad.",
+      "Mantener una conducta responsable y respetar la organización de la comunidad.",
   },
   {
     number: "02",
@@ -77,13 +77,13 @@ const values = [
     number: "03",
     title: "Respeto",
     description:
-      "Tratar correctamente a los integrantes, independientemente de su posiciÃ³n.",
+      "Tratar correctamente a los integrantes, independientemente de su posición.",
   },
   {
     number: "04",
-    title: "OrganizaciÃ³n",
+    title: "Organización",
     description:
-      "Trabajar con coordinaciÃ³n y mantener una estructura clara.",
+      "Trabajar con coordinación y mantener una estructura clara.",
   },
 ];
 
@@ -118,7 +118,7 @@ function PhotoPanel({
       <div className="absolute inset-0 bg-gradient-to-t from-black via-black/45 to-black/5 transition duration-500 group-hover:from-black/90" />
       <div className="absolute bottom-0 left-0 p-7">
         <p className="mb-2 text-[10px] font-bold uppercase tracking-[0.25em] text-red-400">
-          FARF Â· FederaciÃ³n Rusa
+          FARF · Federación Rusa
         </p>
         <h3 className="text-2xl font-black uppercase text-white">
           {title}
@@ -149,7 +149,7 @@ export default function Home() {
             <div>
               <p className="text-sm font-black tracking-[0.22em]">FARF</p>
               <p className="text-[9px] uppercase tracking-[0.15em] text-gray-500">
-                Fuerzas Armadas de la FederaciÃ³n Rusa
+                Fuerzas Armadas de la Federación Rusa
               </p>
             </div>
           </a>
@@ -193,12 +193,12 @@ export default function Home() {
                 <div className="h-1/3 bg-red-600" />
               </div>
               <p className="text-xs font-bold uppercase tracking-[0.3em] text-gray-200">
-                FederaciÃ³n Rusa Â· Portal institucional
+                Federación Rusa · Portal institucional
               </p>
             </div>
 
             <p className="mb-4 text-sm font-bold uppercase tracking-[0.4em] text-red-500">
-              Ð Ð¾ÑÑÐ¸Ð¹ÑÐºÐ°Ñ Ð¤ÐµÐ´ÐµÑ€Ð°Ñ†Ð¸Ñ
+              Российская Федерация
             </p>
 
             <h1 className="text-6xl font-black uppercase leading-[0.95] tracking-tight sm:text-8xl">
@@ -210,8 +210,8 @@ export default function Home() {
             </h1>
 
             <p className="mt-8 max-w-xl text-base leading-8 text-gray-200">
-              Una comunidad de simulaciÃ³n inspirada en la identidad,
-              organizaciÃ³n y tradiciÃ³n institucional de la FederaciÃ³n Rusa.
+              Una comunidad de simulación inspirada en la identidad,
+              organización y tradición institucional de la Federación Rusa.
             </p>
 
             <div className="mt-10 flex flex-wrap gap-4">
@@ -235,7 +235,7 @@ export default function Home() {
       <section className="border-b border-white/10 bg-[#0d0f13] py-24">
         <div className="mx-auto grid max-w-7xl gap-12 px-6 md:grid-cols-2 md:items-center">
           <div>
-            <SectionLabel>PresentaciÃ³n institucional</SectionLabel>
+            <SectionLabel>Presentación institucional</SectionLabel>
             <h2 className="text-4xl font-black uppercase leading-tight sm:text-5xl">
               Una comunidad.
               <br />
@@ -244,23 +244,23 @@ export default function Home() {
               <span className="text-red-600">Una historia.</span>
             </h2>
             <p className="mt-7 max-w-lg text-sm leading-8 text-gray-400">
-              FARF, Fuerzas Armadas de la FederaciÃ³n Rusa, es una comunidad
-              dedicada a la simulaciÃ³n militar y al desarrollo de actividades
+              FARF, Fuerzas Armadas de la Federación Rusa, es una comunidad
+              dedicada a la simulación militar y al desarrollo de actividades
               organizadas dentro de plataformas de videojuegos.
             </p>
           </div>
 
           <PhotoPanel
             image={images.institucion}
-            title="TradiciÃ³n y representaciÃ³n"
-            subtitle="Una imagen de la guardia de honor rusa en el JardÃ­n de Alejandro, MoscÃº."
+            title="Tradición y representación"
+            subtitle="Una imagen de la guardia de honor rusa en el Jardín de Alejandro, Moscú."
           />
         </div>
       </section>
 
       <section id="historia" className="bg-[#090a0d] py-28">
         <div className="mx-auto max-w-7xl px-6">
-          <SectionLabel>Trayectoria de la organizaciÃ³n</SectionLabel>
+          <SectionLabel>Trayectoria de la organización</SectionLabel>
 
           <div className="mb-16 grid gap-8 md:grid-cols-2">
             <h2 className="text-4xl font-black uppercase sm:text-5xl">
@@ -269,7 +269,7 @@ export default function Home() {
               <span className="text-red-600">historia</span>
             </h2>
             <p className="max-w-xl text-sm leading-8 text-gray-400">
-              El recorrido de FARF estÃ¡ marcado por diferentes etapas,
+              El recorrido de FARF está marcado por diferentes etapas,
               cambios de identidad y decisiones colectivas que dieron forma
               a la comunidad actual.
             </p>
@@ -279,7 +279,7 @@ export default function Home() {
             <PhotoPanel
               image={images.historia}
               title="Memoria institucional"
-              subtitle="FormaciÃ³n de cadetes durante un desfile militar en la Plaza Roja de MoscÃº."
+              subtitle="Formación de cadetes durante un desfile militar en la Plaza Roja de Moscú."
             />
 
             <div className="relative ml-2 border-l border-red-900/70 pl-8">
@@ -312,32 +312,32 @@ export default function Home() {
               <h2 className="text-4xl font-black uppercase sm:text-5xl">
                 Nuestra
                 <br />
-                <span className="text-red-600">instituciÃ³n</span>
+                <span className="text-red-600">institución</span>
               </h2>
               <p className="mt-7 text-sm leading-8 text-gray-400">
-                Los siguientes principios son una propuesta de presentaciÃ³n
-                institucional para expresar la orientaciÃ³n y los objetivos
+                Los siguientes principios son una propuesta de presentación
+                institucional para expresar la orientación y los objetivos
                 generales de la comunidad.
               </p>
 
               <div className="mt-10 grid gap-6 sm:grid-cols-2">
                 <div className="border-t border-red-700 pt-5">
                   <p className="mb-3 text-xs font-bold uppercase tracking-widest text-red-500">
-                    MisiÃ³n
+                    Misión
                   </p>
                   <p className="text-sm leading-7 text-gray-400">
-                    Desarrollar una comunidad de simulaciÃ³n organizada,
-                    promoviendo la participaciÃ³n y el trabajo colectivo.
+                    Desarrollar una comunidad de simulación organizada,
+                    promoviendo la participación y el trabajo colectivo.
                   </p>
                 </div>
 
                 <div className="border-t border-red-700 pt-5">
                   <p className="mb-3 text-xs font-bold uppercase tracking-widest text-red-500">
-                    VisiÃ³n
+                    Visión
                   </p>
                   <p className="text-sm leading-7 text-gray-400">
-                    Consolidar una comunidad reconocida por su organizaciÃ³n,
-                    continuidad y calidad en la simulaciÃ³n.
+                    Consolidar una comunidad reconocida por su organización,
+                    continuidad y calidad en la simulación.
                   </p>
                 </div>
               </div>
@@ -346,7 +346,7 @@ export default function Home() {
             <PhotoPanel
               image={images.actividades}
               title="Identidad institucional"
-              subtitle="Uniforme ceremonial de oficial de las Fuerzas Armadas de la FederaciÃ³n Rusa."
+              subtitle="Uniforme ceremonial de oficial de las Fuerzas Armadas de la Federación Rusa."
             />
           </div>
 
@@ -382,7 +382,7 @@ export default function Home() {
               <span className="text-red-600">oficiales</span>
             </h2>
             <p className="text-sm leading-8 text-gray-400">
-              Se muestran Ãºnicamente las divisiones confirmadas oficialmente
+              Se muestran únicamente las divisiones confirmadas oficialmente
               dentro de la estructura actual de FARF.
             </p>
           </div>
@@ -390,15 +390,15 @@ export default function Home() {
           <div className="max-w-4xl">
             <PhotoPanel
               image={images.fuerzaAerea}
-              title="Fuerza AÃ©rea"
-              subtitle="Uniforme de la guardia de honor de la Fuerza AÃ©rea rusa. DivisiÃ³n oficial de la comunidad FARF."
+              title="Fuerza Aérea"
+              subtitle="Uniforme de la guardia de honor de la Fuerza Aérea rusa. División oficial de la comunidad FARF."
             />
             <div className="mt-5 flex flex-wrap items-center justify-between gap-4 border border-white/10 bg-[#111318] p-6">
               <div>
                 <p className="text-xs font-bold uppercase tracking-[0.25em] text-red-500">
-                  DivisiÃ³n confirmada
+                  División confirmada
                 </p>
-                <h3 className="mt-2 text-xl font-bold">Fuerza AÃ©rea</h3>
+                <h3 className="mt-2 text-xl font-bold">Fuerza Aérea</h3>
               </div>
               <span className="border border-red-800 px-4 py-2 text-[10px] font-bold uppercase tracking-widest text-red-400">
                 Oficial
@@ -411,24 +411,24 @@ export default function Home() {
       <section className="border-y border-white/10 bg-[#0d0f13] py-28">
         <div className="mx-auto grid max-w-7xl gap-12 px-6 md:grid-cols-2 md:items-center">
           <div>
-            <SectionLabel>Comunidad y participaciÃ³n</SectionLabel>
+            <SectionLabel>Comunidad y participación</SectionLabel>
             <h2 className="text-4xl font-black uppercase leading-tight">
               Actividades
               <br />
-              <span className="text-red-600">de simulaciÃ³n</span>
+              <span className="text-red-600">de simulación</span>
             </h2>
             <p className="mt-7 text-sm leading-8 text-gray-400">
               FARF desarrolla actividades dentro de diferentes plataformas
               de videojuegos, con experiencias organizadas, encuentros
-              comunitarios y eventos de simulaciÃ³n.
+              comunitarios y eventos de simulación.
             </p>
 
             <div className="mt-8 space-y-4">
               {[
                 "Eventos comunitarios",
-                "Actividades de simulaciÃ³n",
-                "OrganizaciÃ³n interna",
-                "ParticipaciÃ³n de integrantes",
+                "Actividades de simulación",
+                "Organización interna",
+                "Participación de integrantes",
               ].map((activity, index) => (
                 <div
                   key={activity}
@@ -447,7 +447,7 @@ export default function Home() {
 
           <PhotoPanel
             image={images.mando}
-            title="OrganizaciÃ³n y disciplina"
+            title="Organización y disciplina"
             subtitle="Uniforme ceremonial de un integrante de las Fuerzas Armadas rusas."
           />
         </div>
@@ -457,24 +457,24 @@ export default function Home() {
         <div className="mx-auto grid max-w-7xl gap-12 px-6 md:grid-cols-2 md:items-center">
           <PhotoPanel
             image={images.actualidad}
-            title="RepresentaciÃ³n institucional"
-            subtitle="Uniforme de desfile de oficial de las Fuerzas Armadas de la FederaciÃ³n Rusa."
+            title="Representación institucional"
+            subtitle="Uniforme de desfile de oficial de las Fuerzas Armadas de la Federación Rusa."
           />
 
           <div>
-            <SectionLabel>Estructura de direcciÃ³n</SectionLabel>
+            <SectionLabel>Estructura de dirección</SectionLabel>
             <h2 className="text-4xl font-black uppercase sm:text-5xl">
               Alto
               <br />
               <span className="text-red-600">Mando</span>
             </h2>
             <p className="mt-7 text-sm leading-8 text-gray-400">
-              Este espacio estarÃ¡ destinado a presentar a los integrantes
-              que conforman la direcciÃ³n de FARF, sus cargos y sus
+              Este espacio estará destinado a presentar a los integrantes
+              que conforman la dirección de FARF, sus cargos y sus
               responsabilidades dentro de la comunidad.
             </p>
             <p className="mt-6 border-l-2 border-red-700 pl-5 text-xs font-bold uppercase tracking-widest text-gray-500">
-              InformaciÃ³n pendiente de publicaciÃ³n oficial
+              Información pendiente de publicación oficial
             </p>
           </div>
         </div>
@@ -485,7 +485,7 @@ export default function Home() {
         className="border-y border-white/10 bg-[#0d0f13] py-28"
       >
         <div className="mx-auto max-w-7xl px-6">
-          <SectionLabel>InformaciÃ³n institucional</SectionLabel>
+          <SectionLabel>Información institucional</SectionLabel>
 
           <h2 className="mb-12 text-4xl font-black uppercase">
             Actualidad y <span className="text-red-600">comunicados</span>
@@ -494,18 +494,18 @@ export default function Home() {
           <div className="grid gap-8 md:grid-cols-2 md:items-center">
             <div className="border border-white/10 bg-[#111318] p-8 md:p-10">
               <p className="text-xs font-bold uppercase tracking-[0.3em] text-red-500">
-                Centro de informaciÃ³n
+                Centro de información
               </p>
               <h3 className="mt-5 text-2xl font-bold">
                 Comunicados oficiales
               </h3>
               <p className="mt-4 text-sm leading-8 text-gray-400">
-                En este apartado se publicarÃ¡n anuncios, novedades, decisiones
+                En este apartado se publicarán anuncios, novedades, decisiones
                 organizativas y comunicados relevantes para los integrantes
                 de FARF.
               </p>
               <p className="mt-7 text-[10px] font-bold uppercase tracking-widest text-gray-600">
-                PrÃ³ximamente
+                Próximamente
               </p>
             </div>
 
@@ -515,7 +515,7 @@ export default function Home() {
             >
               <div className="flex min-h-[300px] items-end bg-gradient-to-t from-black/90 to-transparent p-7">
                 <p className="text-sm font-bold uppercase tracking-widest">
-                  InformaciÃ³n y novedades de FARF
+                  Información y novedades de FARF
                 </p>
               </div>
             </div>
@@ -550,7 +550,7 @@ export default function Home() {
               </div>
               <p className="text-xl font-black tracking-[0.2em]">FARF</p>
               <p className="mt-2 text-[10px] uppercase tracking-widest text-gray-500">
-                Comunidad de simulaciÃ³n
+                Comunidad de simulación
               </p>
             </div>
           </div>
@@ -563,7 +563,7 @@ export default function Home() {
             <div>
               <p className="text-2xl font-black tracking-[0.25em]">FARF</p>
               <p className="mt-2 text-[10px] uppercase tracking-widest text-gray-600">
-                Fuerzas Armadas de la FederaciÃ³n Rusa
+                Fuerzas Armadas de la Federación Rusa
               </p>
             </div>
 
@@ -572,22 +572,22 @@ export default function Home() {
                 Aviso institucional
               </p>
               <p className="mt-3 text-xs leading-6 text-gray-500">
-                FARF es una comunidad independiente de simulaciÃ³n y
-                videojuegos. No representa ni mantiene afiliaciÃ³n oficial
-                con el Gobierno de la FederaciÃ³n Rusa ni con sus fuerzas
+                FARF es una comunidad independiente de simulación y
+                videojuegos. No representa ni mantiene afiliación oficial
+                con el Gobierno de la Federación Rusa ni con sus fuerzas
                 armadas.
               </p>
             </div>
           </div>
 
           <div className="mt-10 border-t border-white/10 pt-6 text-[10px] uppercase tracking-widest text-gray-600">
-            Â© 2026 FARF. Todos los derechos reservados.
+            © 2026 FARF. Todos los derechos reservados.
           </div>
 
           <div className="mt-8 space-y-2 text-[10px] leading-6 text-gray-600">
             <p>
-              FotografÃ­as de desfiles y guardias de honor: consultar las
-              pÃ¡ginas originales de Wikimedia Commons para sus autores y
+              Fotografías de desfiles y guardias de honor: consultar las
+              páginas originales de Wikimedia Commons para sus autores y
               licencias.
             </p>
             <a
